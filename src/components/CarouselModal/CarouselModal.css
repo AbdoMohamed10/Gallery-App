@@ -1,0 +1,34 @@
+.carousel-modal {
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: inherit;
+    background: #000000de;
+    justify-content: center;
+}
+
+.previous-btn, .next-btn {
+    color: white !important;
+    font-size: 5em !important;
+}
+
+.previous-btn:hover, .next-btn:hover {
+    color: #737373 !important;
+}
+
+.previous-btn:focus, .next-btn:focus {
+    box-shadow: none !important;
+}
+
+.image-name{
+    background-color: #0000006b;
+    color: white;
+    position: relative;
+    bottom: 32px;
+}
+
+.image-number{
+    background-color: #333;
+    color: #b3b3b3;
+}
